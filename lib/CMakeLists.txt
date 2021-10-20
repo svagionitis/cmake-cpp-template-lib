@@ -1,0 +1,7 @@
+add_subdirectory(include)
+add_subdirectory(os)
+add_subdirectory(src)
+add_subdirectory(utils)
+if (ENABLE_TESTS)
+    add_subdirectory(test)
+endif ()

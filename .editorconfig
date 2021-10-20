@@ -1,0 +1,18 @@
+# Editor configuration, see http://editorconfig.org
+# https://github.com/WebKit/WebKit/blob/main/.editorconfig
+
+[*.{c,cpp,h}]
+indent_style = space
+indent_size = 4
+tab_width = 4
+insert_final_newline = true
+
+[{CMakeLists.txt,*.cmake}]
+indent_style = space
+insert_final_newline = true
+
+[.editorconfig]
+indent_style = space
+indent_size = 4
+tab_width = 4
+insert_final_newline = true
